@@ -41,7 +41,7 @@ dependencies {
     implementation 'uk.co.conoregan:themoviedbapi:2.3.0'
     implementation 'commons-io:commons-io:2.18.0'
     implementation 'org.slf4j:slf4j-api:2.0.13'
-    implementation 'ch.qos.logback:logback-classic:1.5.12'
+    implementation 'ch.qos.logback:logback-classic:1.5.13'
     implementation 'com.fasterxml.jackson.core:jackson-databind:2.18.2'
     implementation 'com.fasterxml.jackson.core:jackson-core:2.18.2'
     implementation 'com.fasterxml.jackson.core:jackson-annotations:2.18.2'

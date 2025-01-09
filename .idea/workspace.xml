@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6ef341a-65ac-412d-ad74-30bac96f6504" name="Changes" comment="">
+    <list default="true" id="d6ef341a-65ac-412d-ad74-30bac96f6504" name="Changes" comment="Update dependencies and fix jlink">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/panosdim/movietag/tmdb.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/panosdim/movietag/tmdb.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +76,9 @@
     &quot;accountId&quot;: &quot;2ed2fd33-e033-4359-8f23-73d76d20589e&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 4
@@ -86,26 +88,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.MovieTag [jar].executor": "Run",
-    "Gradle.MovieTag [jlinkZip].executor": "Run",
-    "Gradle.MovieTag [jlink].executor": "Run",
-    "Gradle.MovieTag [jpackage].executor": "Run",
-    "Gradle.MovieTag-JavaFx [distZip].executor": "Run",
-    "Gradle.MovieTag-JavaFx [jlinkZip].executor": "Run",
-    "Gradle.MovieTag-JavaFx [run].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/GitHub Repos/MovieTag",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "Errors"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.MovieTag [jar].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.MovieTag [jlinkZip].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.MovieTag [jlink].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.MovieTag [jpackage].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.MovieTag-JavaFx [distZip].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.MovieTag-JavaFx [jlinkZip].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.MovieTag-JavaFx [run].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/GitHub Repos/MovieTag&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Gradle.MovieTag [jlink]">
     <configuration name="MovieTag [jlink]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -151,6 +153,10 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Gradle.MovieTag-JavaFx [run]" />
+      <item itemvalue="Gradle.MovieTag [jlink]" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.MovieTag [jlink]" />
